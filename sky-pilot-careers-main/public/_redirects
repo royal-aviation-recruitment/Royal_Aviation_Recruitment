@@ -1,1 +1,9 @@
-/*    /index.html   200
+# Force HTTPS and redirect non-www to www
+http://royalaviationrecruitment.com/* https://www.royalaviationrecruitment.com/:splat 301!
+
+# Optional: redirect www HTTP to HTTPS (if accessed via http)
+http://www.royalaviationrecruitment.com/* https://www.royalaviationrecruitment.com/:splat 301!
+
+# SPA fallback for all routes (React/Vue/Angular)
+# This must come last
+/* /index.html 200
