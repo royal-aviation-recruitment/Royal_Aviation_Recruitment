@@ -9,6 +9,4 @@ https://royalaviationrecruitment.com/* https://www.royalaviationrecruitment.com/
 # This ensures routes like /jobs, /about, /upload-resume work
 /* /index.html 200
 
-# Optional: Redirect old URLs or typos (example)
-//example: old page -> new page
-#/old-page /new-page 301!
+
